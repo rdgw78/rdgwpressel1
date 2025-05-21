@@ -50,7 +50,7 @@
     async function obterNumeros() {
       try {
         console.log('Iniciando requisição ao webhook...');
-        const response = await fetch('URLN8NWEBHOOK', {
+        const response = await fetch('https://webhook.cfdojon.work/webhook/presselRDGW', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json'
@@ -80,7 +80,7 @@
       } catch (error) {
         console.error('Erro ao obter os números ou redirecionar:', error);
         // URL de fallback em caso de erro
-        window.location.href = 'https://api.whatsapp.com/send?phone=559999999&text=Oi,%20tudo%20bem%20gata%20?';
+        window.location.href = 'https://api.whatsapp.com/send?phone=5524988339141&text=Oi,%20tudo%20bem%20gata%20?';
       }
     }
 
@@ -95,7 +95,7 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'SEUPIXEL');
+    fbq('init', '1389384548765872');
     fbq('track', 'Pageview');
   </script>
 
